@@ -1,15 +1,13 @@
 .App {
-  margin:50px;
+  margin:50px; 
   text-align: center;
 }
 
 .iField {
   padding:10px;
+  margin:20px;
   font-size: 20px;
-  align-items: center;
-  border-radius: 5%;
 }
-
 
 .uList {
   padding:0;
@@ -20,4 +18,6 @@
 margin-bottom: 20px;
 font-size: 25px;
 color:rgb(4, 37, 90);
+font-weight: 250;
 }
+
