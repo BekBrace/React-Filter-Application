@@ -4,13 +4,19 @@ const TABLE = ({data}) => {
    <table>
     <tbody>
         <tr>
-            <th>Name</th>
-            <th>Email</th>    
+            <th>Author</th>
+            <th>Country</th>    
+            <th>Language</th>    
+            <th>Title</th>      
+            <th>Year</th>      
         </tr>
         {data.map((item) => (
         <tr key={item.id} >
-            <td>{item.company_name}</td>
-            <td>{item.email}</td>
+            <td>{item.author}</td>
+            <td>{item.country}</td>
+            <td>{item.language}</td>
+            <td>{item.title}</td>
+            <td>{item.year}</td>
         </tr>
         ))}
     </tbody>     
